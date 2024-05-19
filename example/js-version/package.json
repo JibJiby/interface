@@ -1,0 +1,26 @@
+{
+  "name": "js-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/plugin-proposal-decorators": "^7.24.1",
+    "@babel/preset-env": "^7.24.5"
+  },
+  "dependencies": {
+    "@jibjiby/interface": "^0.0.1",
+    "nodemon": "^3.1.0",
+    "reflect-metadata": "^0.2.2"
+  }
+}
